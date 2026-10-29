@@ -37,6 +37,7 @@ class TimeLoop
         
         byte getSec();
         byte getHour();
+        byte getMinute();
 
         int getDayOfWeek(int offset);
         String getDayOfWeekName(int offset);

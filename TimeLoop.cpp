@@ -262,6 +262,15 @@ byte TimeLoop::getHour() {
 }
 
 
+/** @brief get minutes as byte
+  * @result     byte minutes
+  */
+byte TimeLoop::getMinute() {
+    actualizeHMS();
+    return mins;
+}
+
+
 /** @brief get date as a string in EU format
   * @result      a string dd.mm.yyyy
   */
